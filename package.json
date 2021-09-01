@@ -1,19 +1,20 @@
 {
-  "name": "node-influx-sample",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.3",
-    "influx": "^5.0.7",
-    "os": "^0.1.1",
-    "path": "^0.12.7"
-  }
+    "name": "node-influx-sample",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@influxdata/influxdb-client": "^1.9.0",
+        "@influxdata/influxdb-client-apis": "^1.9.0",
+        "body-parser": "^1.18.2",
+        "express": "^4.16.3",
+        "os": "^0.1.1",
+        "path": "^0.12.7"
+    }
 }
